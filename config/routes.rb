@@ -5,7 +5,6 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :agencies
-    
   end
 
   root to: "admin/agencies#index"
